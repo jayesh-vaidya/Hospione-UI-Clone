@@ -1,0 +1,637 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+
+
+/* Navbar */
+nav{
+    font-size: 0.85rem;
+}
+.top-nav{
+    height: 2.2rem;
+    background-color: #141C44;
+    color: white;
+}
+.top-nav a:hover{
+    color:#0EB2CD
+
+}
+.top-nav-left{
+    padding-top: 2px;
+}
+.top-nav-right .nav-link{
+    padding-top: 2px;
+}
+.search input{
+    outline: none;
+    height:1.3rem;
+    background:none;
+    border:none;
+    color:white
+}
+.search input::-webkit-input-placeholder {
+    color: white;
+}
+
+.top-nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.img-div img{
+    height: 3.5rem;
+}
+.toll-free img{
+    height: 2.3rem;
+}
+.toll-free-content p{
+    font-weight: 600;
+}
+
+.top-nav-right .btn-login{
+    background-color:rgb(47, 231, 231);
+    border: 1px solid rgb(47, 231, 231);
+    color: white;
+    font-size: .875rem;
+}
+
+.btn-rounded{
+    padding: 12px 22px;
+    background-color:#0EB2CD;
+    border-radius: 50px;
+    color: white;
+    border: 1px solid #0EB2CD; 
+    font-size: .875rem;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.btn-rounded:hover{
+    background-color:rgb(25, 25, 78);
+    border: 1px solid rgb(25, 25, 78);
+}
+
+.btn-rounded-white{
+    padding: 12px 22px;
+    border-radius: 50px;
+    color: rgb(25, 25, 78);
+    background-color: white;
+    border: 2px solid #0EB2CD;
+    font-size: .875rem;
+    text-decoration: none;
+    font-weight: 500;
+}
+.btn-rounded-white:hover{
+    background-color: #0EB2CD;
+
+}
+
+.btm-nav{
+    background-color: rgb(238, 238, 238);
+}
+.img-treatments{
+    font-size: .75rem;
+}
+
+.single-img{
+    text-align: center;
+    width: 4.8rem;
+}
+.single-img a{
+    text-decoration: none;
+    color: black;
+}
+
+.single-img a :hover{
+    font-weight: 600;
+}
+
+.img-treatments img {
+    height: 3rem;
+}
+
+.back p{
+    margin-top: 12px;
+}
+
+
+
+/* Navbar Ends */
+
+/* Banner */
+.banner{
+    height: 400px;
+    background-image: url(./Images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size:cover
+
+}
+
+.ban-img img {
+    height: 60px;
+    padding: 3px 3px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+/* Our Specialities */
+
+.img-cont{
+    border: 1px solid black;
+    border-radius: 100px;
+    width: 90px;
+    height: 90px;
+}
+.img-cont:hover{
+    border: none;
+    box-shadow: 2px 2px 15px 3px rgb(219, 217, 217);
+}
+
+.img-cont img{
+    margin-top: 12px;
+}
+
+.special-row{
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 2px rgb(219, 217, 217);
+}
+
+.specialities-cont .btn-rounded{
+    position: relative;
+    bottom: 62px;
+    padding: 10px 50px;
+    font-weight: 400;
+}
+
+.specialities-content{
+    color: rgb(23, 23, 85);
+}
+.specialities-header{
+    font-weight: 600;
+}
+.img-content a img{
+    padding: 10px 10px;
+    border: 1px solid black;
+    border-radius: 60px;
+}
+
+.img-content a img :hover{
+    padding: 10px 10px;
+    border: 1px solid black;
+    
+}
+
+
+.features-img img{
+    width: 150px;
+}
+
+.features h6{
+    color:#0EB2CD;
+    font-size: 1.1rem;
+}
+
+.features-note{
+    background-color: rgb(23, 23, 85);
+    color: white;
+    font-weight: 500;
+    font-size: small;
+}
+.features-note span{
+    color: rgb(47, 231, 231);;
+}
+
+/* Appointments */
+.app-banner{
+    background-color: rgb(207, 229, 240);
+}
+
+.app-img img{
+    height:300px
+}
+
+.app-heading{
+    color: rgb(29, 221, 242);
+
+}
+.app-head{
+    font-weight:600;
+}
+.form{
+    position: relative;
+    bottom:40px
+}
+.form-wrapper{
+    background-color:#08a49c;
+    border-radius: 10px;
+    width: 800px;
+
+}
+
+.form-wrapper input{
+    outline: none;
+    margin: 0px 10px;
+    padding:12px 35px;
+    border:transparent;
+    border-radius: 5px;
+    font-size: .75rem;
+    width: 360px;
+}
+.form-wrapper select{
+    outline: none;
+    margin: 10px 10px;
+    padding:12px 35px;
+    border:transparent;
+    border-radius: 5px;
+    font-size: .75rem;
+    width: 225px;
+}
+
+.input-div h2{
+    color: white;
+    font-size: 1.7rem;
+}
+
+.btn-rounded-book{
+    position: relative;
+    top:16px;
+    padding: 10px 50px;
+    background-color:rgb(23, 23, 85);
+    border: 2px solid rgb(23, 23, 85);
+    border-radius: 50px;
+    color: white;
+    font-size: .85rem;
+    text-decoration: none;
+}
+
+.btn-rounded-book:hover{
+    background-color:#0EB2CD;
+    border: 2px solid #0EB2CD;
+}
+
+/* Surgery Details */
+.wrapper{
+    text-align: justify;
+}
+.wrapper p{
+    font-size: 0.875rem;
+    font-weight: 300;
+}
+.surgery-details{
+    position: relative;
+}
+.base-img{
+    top: 110px;
+    position: absolute;
+    z-index: -1;
+}
+.top-left{
+    position: relative;
+    left:100px
+}
+.top-right{
+    position: relative;
+    right:100px
+}
+.wrapper .bottom{
+    margin-top:80px
+}
+
+.bottom-left{
+    position: relative;
+    left:100px
+}
+.bottom-right{
+    position: relative;
+    right:100px
+}
+
+
+.base-img img{
+    height:350px
+}
+.side-div img{
+    height:110px
+}
+/* App Download */
+
+
+.app-wrapper{
+    position: relative;
+    
+}
+.app-download{
+    background-color:#def9f8;
+
+}
+.mobile-app img{
+    height: 300px;
+}
+
+.app-content h4{
+    color: rgb(47, 231, 231);;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+.app-content h2{
+    color:rgb(23, 23, 85);
+    font-size: 1.6rem;
+    margin:10px 0px;
+    font-weight:500
+}
+.app-content p{
+    font-size: .875rem;
+
+}
+.app-content{
+    padding:0px 50px;
+}
+
+.app-store a{
+    color:rgb(23, 23, 85);
+}
+.app-store a :hover{
+    color: rgb(47, 231, 231);;
+}
+.buttons.btn-rounded:hover{
+    background-color:rgb(25, 25, 78);
+    border: 1px solid rgb(25, 25, 78);
+}
+
+.online-consult{
+    border-radius: 10px;
+    width: 700px;
+    background-color: white;
+    box-shadow: 4px 4px 4px 4px rgb(219, 217, 217);
+    position: relative;
+    top: 15px;
+    z-index: 22;
+}
+
+.online-consult h5{
+    font-size: 2rem;
+    font-weight:500
+}
+.online-consult p{
+    font-weight: 0.5rem;
+}
+
+/* Articles */
+
+.event-img{
+    box-shadow: 4px 4px 4px 4px rgb(219, 217, 217);
+    border-radius: 10px;
+}
+.article-img img{
+    height:200px;
+    width: 100%;
+    object-fit:cover;
+    border-radius: 5px;
+    
+}
+
+.article-img a{
+    text-decoration: none;
+}
+
+.article-img h6{
+    margin-top: 1rem;
+}
+.article-img p{
+    margin-top: 1rem;
+}
+
+.article-content h5{
+    color: rgb(29, 221, 242);
+    font-size: 1.3rem;
+}
+
+.article-content h6{
+    color: rgb(23, 23, 85);
+    font-size: 1.7rem;
+
+}
+
+
+/* Surgeon */
+
+.surgeon{
+    background-color:#08a49c;
+}
+
+.surgeon h6{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.surgeon h5{
+    color: rgb(23, 23, 85);
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+.surgeon h5 span{
+    color: white;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+.surgeon p{
+    color: white;
+    font-size: 0.875rem;
+    text-transform: capitalize;
+}
+.surgeon .btn-rounded-white{
+    background-color:#08a49c;
+    color: white;
+    border: 1px solid white;
+}
+
+.surgeon .btn-rounded-white:hover{
+    background-color:rgb(23, 23, 85);
+    border: 1px solid rgb(23, 23, 85);  
+}
+
+.surgeon .btn-rounded-connect{
+    background-color:rgb(23, 23, 85);
+    border: 1px solid rgb(23, 23, 85); 
+    color: white;
+    padding: 12px 22px;
+    border-radius: 50px;
+    font-size: .875rem;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.surgeon .btn-rounded-connect:hover{
+    background-color:#08a49c;
+    color: white;
+    border: 1px solid white;
+}
+
+
+
+/* Events */
+
+.event-img{
+    box-shadow: 2px 2px 2px 2px rgb(219, 217, 217);
+    border-radius: 10px;
+}
+.event-img img{
+    height:200px;
+    width: 100%;
+    object-fit:cover;
+    border-radius: 5px;
+    
+}
+.event-img a{
+    text-decoration: none;
+}
+.event-img h6{
+    margin-top: 1rem;
+}
+
+.event-content h5{
+    color: rgb(29, 221, 242);
+    font-size: 1.3rem;
+}
+
+.event-content h6{
+    color: rgb(23, 23, 85);
+    font-size: 1.7rem;
+
+}
+
+/* Testimonials */
+
+.testimonials h5{
+    color: rgb(29, 221, 242);
+    font-size: 1.3rem;
+}
+
+.testimonials h6{
+    color: rgb(23, 23, 85);
+    font-size: 1.7rem;
+
+}
+
+.testimonials .name{
+    color: rgb(23, 23, 85);
+    font-weight: 500;
+    font-size: 1.2rem;
+
+}
+
+.testimonials .btn-rounded{
+    padding: 10px 40px;
+}
+
+.testimonials .review{
+    font-weight: 300;
+    font-size: 1rem;
+}
+.testimonials .quote-left{
+    position: relative;
+    left:160px
+}
+
+.testimonials .quote-right{
+    position: relative;
+    left:1000px;
+    bottom:20px
+}
+
+
+/* About Us */
+
+.about-img img{
+    height:300px
+}
+
+.about-us .para{
+    font-size: 0.85rem;
+    font-weight: 300;
+}
+
+.about-us h5{
+    color: rgb(29, 221, 242);
+    font-size: 1.3rem;
+
+}
+
+.about-us h6{
+    color: rgb(23, 23, 85);
+    font-size: 1.7rem;
+
+}
+
+.about-us .title{
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+/* City Links */
+
+.city-links a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.87rem;
+}
+.city-links span{
+    font-size: 0.87rem;
+}
+
+.city-links p{
+    font-size: 0.87rem;
+    font-weight: 600;
+
+}
+/* Footer */
+
+footer{
+    background-color:rgb(23, 23, 85);
+}
+
+.footer ul{
+    color: white;
+   list-style-type: none;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.85rem;
+    font-weight: 300;
+}
+.footer h6{
+    color: white;
+
+}
+
+.footer-para{
+    text-decoration: none;
+    color: white;
+    font-size: 0.85rem;
+    font-weight: 300;
+}
+
+.copyright-div span{
+    color: rgb(29, 221, 242);
+}
+
+.c1{
+    border:1px solid red
+}
+
+
+
+
